@@ -1,0 +1,461 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Ismailia Guide</title>
+  <link href="css/style.css" rel='stylesheet' type='text/css' />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+</script>
+<script src="js/jquery.min.js"></script>
+<!---script---->
+<link rel="stylesheet" href="css/jquery.bxslider.css" type="text/css" />
+<script src="js/jquery.bxslider.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+  $('.bxslider').bxSlider({
+    auto: true,
+    autoControls: true,
+    minSlides: 4,
+    maxSlides: 4,
+    slideWidth: 450,
+    slideMargin: 10
+  });
+});
+</script>
+<!---//script---->
+<!---smoth-scrlling---->
+<script type="text/javascript">
+$(document).ready(function () {
+  $('a[href^="#"]').on('click', function (e) {
+    e.preventDefault();
+    var target = this.hash,
+    $target = $(target);
+    $('html, body').stop().animate({
+      'scrollTop': $target.offset().top
+    }, 1000, 'swing', function () {
+      window.location.hash = target;
+    });
+  });
+});
+</script>
+<!---//smoth-scrlling---->
+<!----start-top-nav-script---->
+<script type="text/javascript" src="js/flexy-menu.js"></script>
+<script type="text/javascript">$(document).ready(function () {
+  $(".flexy-menu").flexymenu({speed: 400, type: "horizontal", align: "right"});
+});</script>
+<!----//End-top-nav-script---->
+<!---webfonts---->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<!---webfonts---->
+<!--start slider -->
+<link rel="stylesheet" href="css/fwslider.css" media="all">
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/css3-mediaqueries.js"></script>
+<script src="js/fwslider.js"></script>
+<!--end slider -->
+<!---calender-style---->
+<link rel="stylesheet" href="css/jquery-ui.css" />
+<!---//calender-style---->
+<style>
+  @font-face {
+    font-family: myFirstFont;
+    src: url(css/JF.ttf);
+  }
+
+  .ar {
+    font-family: myFirstFont;
+  }
+
+  </style>
+</head>
+<body>
+  <div class="top-header" id="header">
+    <div class="wrap">
+        <div class="top-header-left">
+            <ul>
+                <li><p class="contact-info">Call Us Now :815-123-4567</p></li>
+                <div class="clear"> </div>
+            </ul>
+        </div>
+        <div class="top-header-right">
+            <ul>
+                <li><a class="face" href="#"><span></span></a></li>
+                <li><a class="twit" href="#"><span> </span></a></li>
+                <li><a class="thum" href="#"><span> </span></a></li>
+                <li><a class="pin" href="#"><span> </span></a></li>
+                <div class="clear"> </div>
+            </ul>
+        </div>
+        <div class="clear"> </div>
+    </div>
+</div>
+<!----//End-top-header----->
+<!---start-header---->
+<div class="header">
+    <div class="wrap">
+        <!--- start-logo---->
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.png" /></a>
+        </div>
+        <!--- //End-logo---->
+        <!--- start-top-nav---->
+        <div class="top-nav">
+            <ul class="flexy-menu thick orange ar">
+                <li class="active"><a href="index.html">الرئيسيه</a></li>
+                <li><a href="#">الخدمات الطبيه</a>
+                    <ul>
+                        <li><a href="Sec/hospital.html" style="color: #1dd2af">مستشفي</a></li>
+                        <li><a href="Sec/centers.html" style="color: #1dd2af">مراكز طبيه</a></li>
+                        <li><a href="Sec/pharmacies.html" style="color: #1dd2af">صيدليات</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">شراء وبيع</a>
+                    <ul>
+                        <li><a href="Sec/restaurant.html" style="color: #1dd2af">مطاعم</a></li>
+                        <li><a href="Sec/cafe.html" style="color: #1dd2af">كافيهات</a></li>
+                        <li><a href="Sec/drinks.html" style="color: #1dd2af">مشروبات</a></li>
+						<li><a href="Sec/gifts.html" style="color: #1dd2af">هدايا</a></li>
+						<li><a href="Sec/buildings.html" style="color: #1dd2af">شركات عقاريه</a></li>
+						<li><a href="Sec/computer.html" style="color: #1dd2af">مستلزمات كمبيوتر</a></li>
+						<li><a href="Sec/cars.html" style="color: #1dd2af">سيارات</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">خدمات</a>
+                    <ul>
+                        <li><a href="Sec/hotels.html" style="color: #1dd2af">فنادق</a></li>
+                        <li><a href="Sec/banks.html" style="color: #1dd2af">بنوك</a></li>
+                        <li><a href="Sec/education.html" style="color: #1dd2af">التعليم</a></li>
+                        <li><a href="Sec/fun.html" style="color: #1dd2af">ترفيه</a></li>
+                        <li><a href="Sec/communication.html" style="color: #1dd2af">الاتصالات</a></li>
+						<li><a href="Sec/org.html" style="color: #1dd2af">اماكن هامه</a></li>
+                    </ul>
+                </li>
+				<li><a href="Sec/phones.html">ارقام طوارئ</a></li>
+                <li><a href="contact.html">للتواصل</a></li>
+            </ul>
+        </div>
+        <!--- //End-top-nav---->
+        <div class="clear"> </div>
+    </div>
+    <!---//End-header---->
+</div>
+
+  <!----start-images-slider---->
+  <div class="images-slider">
+    <!-- start slider -->
+    <div id="fwslider">
+      <div class="slider_container">
+        <div class="slide">
+          <!-- Slide image -->
+          <img src="images/slider-bg.jpg" alt=""/>
+          <!-- /Slide image -->
+          <!-- Texts container -->
+          <div class="slide_content">
+            <div class="slide_content_wrap">
+              <!-- Text title -->
+              <h4 class="title">Your Guide in Ismailia here </h4>
+              <!-- /Text title -->
+              <!-- Text description -->
+              <p class="description">All you need is a destination.</p>
+              <!-- /Text description -->
+              <div class="slide-btns description">
+                <ul>
+                  <li><a class="minfo" href="#">More info </a></li>
+                  <div class="clear"> </div>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- /Texts container -->
+        </div>
+        <!-- /Duplicate to create more slides -->
+        <div class="slide">
+          <img src="images/slider-bg.jpg" alt=""/>
+          <div class="slide_content">
+            <div class="slide_content_wrap">
+              <!-- Text title -->
+              <h4 class="title">Your Guide in Ismailia here </h4>
+              <!-- /Text title -->
+              <!-- Text description -->
+              <p class="description">All you need is a destination.</p>
+              <!-- /Text description -->
+              <div class="slide-btns description">
+                <ul>
+                  <li><a class="minfo" href="#">More info </a></li>
+                  <div class="clear"> </div>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--/slide -->
+      </div>
+      <div class="timers"> </div>
+      <div class="slidePrev"><span> </span></div>
+      <div class="slideNext"><span> </span></div>
+    </div>
+    <!--/slider -->
+  </div>
+
+  <!----start-offers---->
+  <div class="offers">
+    <div class="offers-head">
+      <h3>Our Sections</h3>
+      <p>All things you need</p>
+    </div>
+    <!-- start content_slider -->
+    <!-- FlexSlider -->
+    <!-- jQuery -->
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+    <!-- FlexSlider -->
+    <script defer src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript">
+    $(function () {
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function () {
+      $('.flexslider').flexslider({
+        animation: "slide",
+        animationLoop: true,
+        itemWidth: 250,
+        itemMargin: 5,
+        start: function (slider) {
+          $('body').removeClass('loading');
+        }
+      });
+    });
+    </script>
+    <!-- Place somewhere in the <body> of your page -->
+    <section class="slider">
+      <div class="flexslider carousel">
+        <ul class="slides">
+          <li onclick="location.href = 'Sec/hospital.html';">
+            <img src="images/sec/hospital.jpg" />
+            <!----place-caption-info---->
+            <div class="caption-info">
+              <div class="caption-info-head">
+                <div class="caption-info-head-left">
+                  <h4><a href="#" class="ar">القسم الطبي</a></h4>
+                  <span>19 Item</span>
+                </div>
+                <div class="caption-info-head-right">
+                  <span> </span>
+                </div>
+                <div class="clear"> </div>
+              </div>
+            </div>
+            <!----//place-caption-info---->
+          </li>
+          <li onclick="location.href = 'Sec/hotels.html';">
+            <img src="images/sec/hotel.jpg" />
+            <!----place-caption-info---->
+            <div class="caption-info">
+              <div class="caption-info-head">
+                <div class="caption-info-head-left">
+                  <h4><a href="#" class="ar">الفنادق</a></h4>
+                  <span>19 Item</span>
+                </div>
+                <div class="caption-info-head-right">
+                  <span> </span>
+                </div>
+                <div class="clear"> </div>
+              </div>
+            </div>
+            <!----//place-caption-info---->
+          </li>
+          <li onclick="location.href = 'Sec/cafe.html';">
+            <img src="images/sec/cafe.jpg" />
+            <!----place-caption-info---->
+            <div class="caption-info">
+              <div class="caption-info-head">
+                <div class="caption-info-head-left">
+                  <h4><a href="#" class="ar">الكافيهات</a></h4>
+                  <span>19 Item</span>
+                </div>
+                <div class="caption-info-head-right">
+                  <span> </span>
+                </div>
+                <div class="clear"> </div>
+              </div>
+            </div>
+            <!----//place-caption-info---->
+          </li>
+          <li onclick="location.href = 'Sec/banks.html';">
+            <img src="images/sec/bank.jpg" />
+            <!----place-caption-info---->
+            <div class="caption-info">
+              <div class="caption-info-head">
+                <div class="caption-info-head-left">
+                  <h4><a href="#" class="ar">البنوك </a></h4>
+                  <span>19 Item</span>
+                </div>
+                <div class="caption-info-head-right">
+                  <span> </span>
+                </div>
+                <div class="clear"> </div>
+              </div>
+            </div>
+            <!----//place-caption-info---->
+          </li>
+          <li onclick="location.href = 'Sec/restaurant.html';">
+            <img src="images/sec/restaurant.jpg" />
+            <!----place-caption-info---->
+            <div class="caption-info">
+              <div class="caption-info-head">
+                <div class="caption-info-head-left">
+                  <h4><a href="#" class="ar">المطاعم</a></h4>
+                  <span>19 Item</span>
+                </div>
+                <div class="caption-info-head-right">
+                  <span> </span>
+                </div>
+                <div class="clear"> </div>
+              </div>
+            </div>
+            <!----//place-caption-info---->
+          </li>
+          <li onclick="location.href = 'Sec/fun.html';">
+            <img src="images/sec/play.jpg" />
+            <!----place-caption-info---->
+            <div class="caption-info">
+              <div class="caption-info-head">
+                <div class="caption-info-head-left">
+                  <h4><a href="#" class="ar">خروجات</a></h4>
+                  <span>19 Item</span>
+                </div>
+                <div class="caption-info-head-right">
+                  <span> </span>
+                </div>
+                <div class="clear"> </div>
+              </div>
+            </div>
+            <!----//place-caption-info---->
+          </li>
+          <li onclick="location.href = 'Sec/cars.html';">
+            <img src="images/sec/car.jpg" />
+            <!----place-caption-info---->
+            <div class="caption-info">
+              <div class="caption-info-head">
+                <div class="caption-info-head-left">
+                  <h4><a href="#" class="ar">خدمات السيارات</a></h4>
+                  <span>19 Item</span>
+                </div>
+                <div class="caption-info-head-right">
+                  <span> </span>
+                </div>
+                <div class="clear"> </div>
+              </div>
+            </div>
+            <!----//place-caption-info---->
+          </li>
+          <li onclick="location.href = 'Sec/computer.html';">
+            <img src="images/sec/computer.jpg" />
+            <!----place-caption-info---->
+            <div class="caption-info">
+              <div class="caption-info-head">
+                <div class="caption-info-head-left">
+                  <h4><a href="#">Computer Shop</a></h4>
+                  <span>19 Item</span>
+                </div>
+                <div class="caption-info-head-right">
+                  <span> </span>
+                </div>
+                <div class="clear"> </div>
+              </div>
+            </div>
+            <!----//place-caption-info---->
+          </li>
+          <li onclick="location.href = 'Sec/drinks.html';">
+            <img src="images/sec/drinks.jpg" />
+            <!----place-caption-info---->
+            <div class="caption-info">
+              <div class="caption-info-head">
+                <div class="caption-info-head-left">
+                  <h4><a href="#" class="ar">مشروبات</a></h4>
+                  <span>19 Item</span>
+                </div>
+                <div class="caption-info-head-right">
+                  <span> </span>
+                </div>
+                <div class="clear"> </div>
+              </div>
+            </div>
+            <!----//place-caption-info---->
+          </li>
+          <li onclick="location.href = 'Sec/pharmacies.html';">
+            <img src="images/sec/pharmacy.jpg" />
+            <!----place-caption-info---->
+            <div class="caption-info">
+              <div class="caption-info-head">
+                <div class="caption-info-head-left">
+                  <h4><a href="#" class="ar">صيدليات</a></h4>
+                  <span>19 Item</span>
+                </div>
+                <div class="caption-info-head-right">
+                  <span> </span>
+                </div>
+                <div class="clear"> </div>
+              </div>
+            </div>
+            <!----//place-caption-info---->
+          </li>
+
+        </ul>
+      </div>
+    </section>
+    <!-- //End content_slider -->
+  </div>
+  <!----//End-offers---->
+  <!---start-holiday-types---->
+  <div class="holiday-types"  style="margin-bottom: 0px">
+    <div class="wrap">
+      <div class="holiday-type-head">
+        <h3>Features Type</h3>
+        <span>get explore all information you need!</span>
+      </div>
+      <div class="holiday-type-grids">
+        <div class="holiday-type-grid">
+          <span class="icon1"> </span>
+          <a href="#">Restaurants</a>
+        </div>
+        <div class="holiday-type-grid">
+          <span class="icon2"> </span>
+          <a href="#">Car Services</a>
+        </div>
+        <div class="holiday-type-grid">
+          <span class="icon3"> </span>
+          <a href="#">Medical</a>
+        </div>
+        <div class="holiday-type-grid">
+          <span class="icon4"> </span>
+          <a href="#">Location</a>
+        </div>
+        <div class="holiday-type-grid">
+          <span class="icon5"> </span>
+          <a href="#">Drinks</a>
+        </div>
+        <div class="holiday-type-grid">
+          <span class="icon6"> </span>
+          <a href="#">Phones</a>
+        </div>
+        <div class="clear"> </div>
+      </div>
+    </div>
+  </div>
+  <!---//End-holiday-types---->
+  <!----//End-images-slider---->
+
+  <!---start-subfooter---->
+  <!---start-subfooter---->
+    <div class="subfooter">
+        <div class="wrap">
+            <a class="to-top" href="#header"><span> </span> </a>
+        </div>
+    </div>
+    <!---//End-subfooter---->
+
+  <!---//End-subfooter---->
+  <!----//End-wrap---->
+</body>
+</html>
